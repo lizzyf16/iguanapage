@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+#headersection{
+    background-color: black;
+    color: white;
+}
+#headersection h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+#headersection img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#desc-section{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 75px 400px;
+    gap: 150px;
+
+    }
+#desc-section img{
+    height: 237px;
+    width: 399px;
+}
+
+#Carac-section{
+    background-color: #1e1a13;
+    padding: 75px;
+    text-align: center;
+}
+/* #Cara-section .card-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 100;
+    font-size: 24px;
+    width: 55.8px;
+} */
+
+#Carac-section h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+#Carac-section .icons-section{
+    color: white;
+    font-weight: 100;
+    font-size: 24px;
+    display:flex;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+    }
+#imagen-section{
+    background-color: black;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+}
+#imagen-section img{
+    width: 316px;
+    height: 202px;
+    background-color: black;
+}
+footer{
+    background-color: #1e1a13;
+    text-align: center;
+    padding-top: 79px;
+    padding-bottom: 20px;
+}
+footer p{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: white;
+}
